@@ -1,0 +1,1 @@
+This is a simple solution to the questions provided on the pdf attached
