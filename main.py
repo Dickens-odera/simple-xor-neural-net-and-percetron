@@ -37,9 +37,9 @@ class XOR():
     def node_2_activation(self):
         return self.sigmoid(self.hidden_node_2())
 
-#the weighted summation of the output node of the neutal network
+#the weighted summation of the output node of the neural network
     def output_layer_summation(self):
-        return (self.hidden_node_1() * self.w5) + (self.hidden_node_2() * self.w6) + self.b3
+        return (self.node_1_activation() * self.w5) + (self.node_2_activation() * self.w6) + self.b3
 
 #the output of the neural network(sigmoid function value)
     def output(self):
